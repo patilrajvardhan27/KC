@@ -13,20 +13,44 @@
         android:theme="@style/Theme.KonarkComputers"
         tools:targetApi="31">
         <activity
+            android:name=".hardwarecomp"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".softwarecomp"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".service"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".NewProduct"
-            android:exported="false" >
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
+
                 <data android:mimeType="*/*" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.SENDTO" />
+
                 <data android:scheme="mailto" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Aboutus"
             android:exported="false" />
