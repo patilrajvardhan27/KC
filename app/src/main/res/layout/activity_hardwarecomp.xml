@@ -49,7 +49,7 @@
             android:textColor="@color/black"
             android:textSize="20sp"/>
         <EditText
-            android:id="@+id/prod"
+            android:id="@+id/device"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -57,17 +57,18 @@
             android:ems="10"
             android:textSize="20sp"
             />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:text="Describe the problem -"
+            android:text="Model Name/Number :-"
             android:textColor="@color/black"
             android:textSize="20sp"/>
 
         <EditText
-            android:id="@+id/prof"
+            android:id="@+id/Namemodel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -80,25 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:text="Any specific model you want :-"
-            android:textColor="@color/black"
-            android:textSize="20sp"/>
-
-        <EditText
-            android:id="@+id/Nmodel"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
-            android:ems="10"
-            android:textSize="20sp"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:text="Describe your need :-"
+            android:text="Describe your problem :-"
             android:textColor="@color/black"
             android:textSize="20sp"/>
 
@@ -112,23 +95,9 @@
             android:lines="4"
             android:textSize="18sp"
             />
-        <ImageView
-            android:id="@+id/imginp"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_margin="10dp"
-            />
-        <Button
-            android:id="@+id/btnpkimg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:text="Pick image"
-            />
 
         <Button
-            android:id="@+id/btnsendnp"
+            android:id="@+id/btnhardsend"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
