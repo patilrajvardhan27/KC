@@ -9,12 +9,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
         val btnNxt:Button = findViewById(R.id.nextBtn)
         btnNxt.setOnClickListener(){
             val intent = Intent(this,Aboutus::class.java)
             startActivity(intent)
         }
-
 
     }
 }

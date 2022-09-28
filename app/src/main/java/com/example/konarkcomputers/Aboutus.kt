@@ -19,6 +19,11 @@ class Aboutus : AppCompatActivity() {
             val intent = Intent(this, service :: class.java)
             startActivity(intent)
         }
+        val btnconus:Button = findViewById(R.id.contus)
+        btnconus.setOnClickListener(){
+            val intent = Intent(this, contactus :: class.java)
+            startActivity(intent)
+        }
 
     }
 }
