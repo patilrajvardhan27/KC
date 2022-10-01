@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,6 +8,11 @@
     android:orientation="vertical"
     tools:context=".Aboutus"
     >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,7 +27,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Computer Sales &amp; Service"
+        android:text="We take this opportunity to introduce ourselves as a Computer Hardware and Software Service Provider. We have head office at Kolhapur, having experience since last 22 years.
+We are please to inform you that we are dealing in Multi brand and assembled PC’s, Printers and Peripherals.
+Our specialty in Prompt and Efficient Services core with up-to-date knowledge and in house setup for repair section with qualified and experienced Engineers team.
+Presently we are providing services in and around Kolhapur such as Gokul Shirgon, Shiroli and Kagal Five Star MIDC, Warnanager. Our client base includes industries, sugar factory, path sanstha, Corporate Offices, Education Institutes and Societies, Tax Consultants, Traders, Home segment and various other fields, also we all taking customers on AMC / Call basis."
         android:textSize="22sp"
         android:gravity="center"
         android:layout_marginTop="10dp"
@@ -31,31 +39,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CCTV Cammera's"
         android:textSize="22sp"
         android:gravity="center"
         android:layout_marginTop="10dp"
         android:fontFamily="monospace"
         />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Biometric Systems"
-        android:textSize="22sp"
-        android:gravity="center"
-        android:layout_marginTop="10dp"
-        android:fontFamily="monospace"
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Networking"
-        android:textSize="22sp"
-        android:gravity="center"
-        android:layout_marginTop="10dp"
-        android:fontFamily="monospace"
-        />
-    <Button
+
+        <Button
         android:id="@+id/newprod"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -82,4 +72,6 @@
         android:textColor="@color/black"
         android:layout_marginTop="20dp"
         />
-</LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
