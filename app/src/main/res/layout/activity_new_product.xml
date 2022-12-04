@@ -39,24 +39,8 @@
             android:layout_marginLeft="10dp"
             android:text="Email-id :- konarkcomputer1998@gmail.com "/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:text="Enter product you want"
-            android:textColor="@color/black"
-            android:textSize="20sp"/>
-        <EditText
-            android:id="@+id/prod"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
-            android:ems="10"
-            android:hint="eg: laptop, cctv, cpu, monitor...etc"
-            android:textSize="20sp"
-            />
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -75,6 +59,24 @@
             android:ems="10"
             android:hint="eg: CA, Businessman, Student ... etc"
             android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/prodyouwant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Select the product you want"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <Spinner
+            android:id="@+id/drop"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/btn_dropdown"
             />
         <TextView
             android:layout_width="wrap_content"
