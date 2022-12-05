@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bq"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context=".softwarecomp">
 
@@ -19,6 +19,7 @@
             android:text="Email :"
             android:layout_marginTop="10dp"
             android:textSize="20sp"
+            android:textColor="#76757A"
             android:layout_marginLeft="10dp"/>
 
         <EditText
@@ -29,16 +30,12 @@
             android:lines="1"
             android:textSize="20sp"
             android:layout_marginLeft="10dp"
-            android:inputType="textEmailAddress"
-            android:hint="type email below"/>
+            android:textColor="@color/black"
+            android:text="konarkcomputers1998@gmail.com"
+            android:inputType="textEmailAddress" />
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:layout_marginLeft="10dp"
-            android:text="Email-id :- konarkservices1998@gmail.com "/>
+
         <TextView
             android:id="@+id/softprodyouwant"
             android:layout_width="wrap_content"
@@ -46,7 +43,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:text="Select the product you want"
-            android:textColor="@color/black"
+            android:textColor="#76757A"
             android:textSize="20sp"/>
 
         <Spinner
@@ -64,13 +61,14 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:text="Software -"
-            android:textColor="@color/black"
+            android:textColor="#76757A"
             android:textSize="20sp"/>
         <EditText
             android:id="@+id/softprod"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:hint="eg: antivirus renewal, windows, anydesk"
             android:layout_marginLeft="10dp"
             android:ems="10"
@@ -83,7 +81,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:text="Describe your need :-"
-            android:textColor="@color/black"
+            android:textColor="#76757A"
             android:textSize="20sp"/>
 
         <EditText
@@ -94,6 +92,7 @@
             android:layout_marginLeft="10dp"
             android:gravity="start"
             android:lines="4"
+            android:textColor="@color/black"
             android:textSize="18sp"
             />
 
@@ -102,6 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:backgroundTint="#76757A"
             android:layout_marginTop="20dp"
             android:text="Send"
             />

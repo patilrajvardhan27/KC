@@ -18,6 +18,7 @@
         android:layout_height="wrap_content"
         android:text="About us"
         android:textSize="35sp"
+        android:textColor="@color/black"
         android:textStyle="bold"
         android:gravity="center"
         android:layout_marginTop="50dp"
@@ -33,6 +34,7 @@ Our specialty in Prompt and Efficient Services core with up-to-date knowledge an
 Presently we are providing services in and around Kolhapur such as Gokul Shirgon, Shiroli and Kagal Five Star MIDC, Warnanager. Our client base includes industries, sugar factory, path sanstha, Corporate Offices, Education Institutes and Societies, Tax Consultants, Traders, Home segment and various other fields, also we all taking customers on AMC / Call basis."
         android:textSize="22sp"
         android:gravity="center"
+        android:textColor="#76757A"
         android:layout_marginTop="10dp"
         android:fontFamily="monospace"
         />

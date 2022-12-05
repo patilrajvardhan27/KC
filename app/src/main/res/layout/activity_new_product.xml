@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bq"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context=".NewProduct">
     <LinearLayout
@@ -17,6 +17,7 @@
             android:layout_height="wrap_content"
             android:text="Email :"
             android:layout_marginTop="10dp"
+            android:textColor="#76757A"
             android:textSize="20sp"
             android:layout_marginLeft="10dp"/>
 
@@ -29,17 +30,8 @@
             android:textSize="20sp"
             android:layout_marginLeft="10dp"
             android:inputType="textEmailAddress"
-            android:hint="type email below"/>
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:layout_marginLeft="10dp"
-            android:text="Email-id :- konarkcomputer1998@gmail.com "/>
-
-
+            android:textColor="@color/black"
+            android:text="konarkcomputers1998@gmail.com"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -47,7 +39,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:text="What is your profession :-"
-            android:textColor="@color/black"
+            android:textColor="#76757A"
             android:textSize="20sp"/>
 
         <EditText
@@ -57,9 +49,19 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             android:ems="10"
+            android:textColor="@color/black"
             android:hint="eg: CA, Businessman, Student ... etc"
             android:textSize="20sp"
             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Select product you want :-"
+            android:textColor="#76757A"
+            android:textSize="20sp"/>
+
         <EditText
             android:id="@+id/prodyouwant"
             android:layout_width="wrap_content"
@@ -67,7 +69,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:hint="Select the product you want"
-            android:textColor="@color/black"
+            android:textColor="#76757A"
             android:textSize="20sp"/>
 
         <Spinner
@@ -84,7 +86,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:text="Any specific model you want :-"
-            android:textColor="@color/black"
+            android:textColor="#76757A"
             android:textSize="20sp"/>
 
         <EditText
@@ -94,6 +96,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             android:ems="10"
+            android:textColor="@color/black"
             android:hint="eg: ASUS TUF A15, MacBook Air"
             android:textSize="20sp"
             />
@@ -103,7 +106,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:text="Describe your need :-"
-            android:textColor="@color/black"
+            android:textColor="#76757A"
             android:textSize="20sp"/>
 
         <EditText
@@ -112,6 +115,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
             android:hint="eg: I need it for graphics work and designing"
             android:gravity="start"
             android:lines="4"
@@ -124,6 +128,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:text="Send"
+            android:backgroundTint="#76757A"
             />
 
 

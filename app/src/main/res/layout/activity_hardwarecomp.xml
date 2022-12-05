@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bq"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context=".hardwarecomp">
 
@@ -17,6 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Email :"
+            android:textColor="#76757A"
             android:layout_marginTop="10dp"
             android:textSize="20sp"
             android:layout_marginLeft="10dp"/>
@@ -27,18 +28,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:lines="1"
+            android:textColor="@color/black"
             android:textSize="20sp"
             android:layout_marginLeft="10dp"
             android:inputType="textEmailAddress"
-            android:hint="type email below"/>
+            android:text="konarkcomputers1998@gmail.com"/>
 
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:layout_marginLeft="10dp"
-            android:text="Email-id :- konarkservices1998@gmail.com "/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -46,7 +41,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:text="Device -"
-            android:textColor="@color/black"
+            android:textColor="#76757A"
             android:textSize="20sp"/>
         <EditText
             android:id="@+id/device"
@@ -55,6 +50,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             android:ems="10"
+            android:textColor="@color/black"
             android:textSize="20sp"
             />
 
@@ -64,7 +60,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:text="Model Name/Number :-"
-            android:textColor="@color/black"
+            android:textColor="#76757A"
             android:textSize="20sp"/>
 
         <EditText
@@ -75,6 +71,7 @@
             android:layout_marginLeft="10dp"
             android:ems="10"
             android:textSize="20sp"
+            android:textColor="@color/black"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -82,7 +79,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:text="Describe your problem :-"
-            android:textColor="@color/black"
+            android:textColor="#76757A"
             android:textSize="20sp"/>
 
         <EditText
@@ -93,6 +90,7 @@
             android:layout_marginLeft="10dp"
             android:gravity="start"
             android:lines="4"
+            android:textColor="@color/black"
             android:textSize="18sp"
             />
 
@@ -101,6 +99,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:backgroundTint="#76757A"
             android:layout_marginTop="20dp"
             android:text="Send"
             />

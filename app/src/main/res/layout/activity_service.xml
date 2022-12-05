@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bq"
+    android:background="@color/white"
     tools:context=".service">
 
     <ImageView
@@ -19,6 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Software Component"
+        android:backgroundTint="#76757A"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         />
@@ -33,6 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hardware Component"
+        android:backgroundTint="#76757A"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         />
